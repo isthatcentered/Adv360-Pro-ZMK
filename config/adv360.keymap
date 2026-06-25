@@ -96,5 +96,25 @@
 &trans  &trans  &trans            &trans                &trans                        &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans  &trans
             >;
         };
+
+        Symbols {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans         &trans        &trans        &trans        &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp LS(UNDER)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(LT)    &kp LS(GT)  &kp LT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS      &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(DQT)   &kp SQT     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp LS(AMPS)   &kp LBKT      &kp RBKT      &kp LS(PIPE)  &kp EQUAL   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                 &trans        &trans        &trans        &trans      &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans         &trans            &trans         &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp LS(UNDER)  &kp LS(DLLR)      &kp LS(STAR)   &kp LS(POUND)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans         &trans            &trans         &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp LS(PRCNT)  &kp LS(ASTERISK)  &kp LS(POUND)  &trans         &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans         &trans            &trans         &trans         &trans
+            >;
+        };
     };
 };
