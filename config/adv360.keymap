@@ -114,11 +114,11 @@
 
         Symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp LS(UNDER)  &kp LS(DLLR)   &kp LS(STAR)  &kp LS(POUND)  &kp N3      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp LS(UNDER)  &kp LS(LBRC)   &kp LS(RBRC)  &kp LS(LT)     &kp LS(GT)  &kp LT
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS      &kp LS(LPAR)   &kp LS(RPAR)  &kp LS(DQT)    &kp SQT     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp LS(AMPS)   &kp LBKT       &kp RBKT      &kp LS(PIPE)   &kp EQUAL   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                 &kp LS(PRCNT)  &kp N5        &trans         &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp LS(UNDER)  &kp LS(UNDER)  &kp LS(DLLR)  &kp LS(STAR)  &kp LS(POUND)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp LS(UNDER)  &kp LS(LBRC)   &kp LS(RBRC)  &kp LS(LT)    &kp LS(GT)     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS      &kp LS(LPAR)   &kp LS(RPAR)  &kp LS(DQT)   &kp SQT        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp LS(AMPS)   &kp LBKT       &kp RBKT      &kp LS(PIPE)  &kp EQUAL      &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                 &kp LS(PRCNT)  &kp N5        &trans        &trans         &trans
             >;
         };
 
